@@ -47,8 +47,7 @@ body {
     background-color: #0b570b; /* dark green */
     color: #d4f1d4;            /* light green */
     text-align: center;
-    padding: 10px;
-    position: fixed;
+    padding: 5px;
     bottom: 0;
     width: 100%;
   }
@@ -65,8 +64,10 @@ body {
   .photo-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 5px;
     margin-top: 20px;
+    width: 40%;
+    margin: auto;
   }
   
   .photo-item {
@@ -75,10 +76,15 @@ body {
   
   .photo-item img {
     width: 150px;
-    height: 150px;
     object-fit: cover;
     border-radius: 8px;
     border: 2px solid #0b570b; /* dark green border */
+  }
+
+  .photo-main img {
+    display: block;
+    margin: auto;
+    width: 50%;
   }
   
   .photo-item p {
