@@ -64,6 +64,13 @@
   .section h2 {
     color: #2c7a2c; /* medium green */
   }
+
+  .section h3 {
+    color: #2c7a2c; /* medium green */
+    text-align: center;
+    text-decoration: underline;
+
+  }
   
   /* About page 2x2 photo grid */
   .photo-grid {
