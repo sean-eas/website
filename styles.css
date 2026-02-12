@@ -129,4 +129,18 @@
       position: static;
     }
   }
+
+  a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: #f9fdfb;
+    background-color: #0b570b;
+    text-decoration: none;
+    display:block;
+    text-align:center;
+    display: block;
+    margin: auto;
+    width: 200px;
+}
   
